@@ -1,0 +1,16 @@
+{
+  "name": "csv-parse-duplicates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Roope Merikukka",
+  "license": "ISC",
+  "dependencies": {
+    "args": "^5.0.1",
+    "chalk": "^2.4.2",
+    "csv-parser": "^2.2.0"
+  }
+}
