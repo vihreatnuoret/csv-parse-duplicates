@@ -36,6 +36,8 @@ fs.createReadStream(inputFile)
     if (first) {
       if (!exists) {
         rows.push(data)
+      } else {
+        console.log(`Value for ${data[field]} already exists`)
       }
     } else {
       rows = rows.map(row => {
@@ -43,6 +45,8 @@ fs.createReadStream(inputFile)
       })
       if (!exists) {
         rows.push(data)
+      } else {
+        console.log(`Value for ${data[field]} already exists`)
       }
     }
   })
